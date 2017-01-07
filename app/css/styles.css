@@ -1,0 +1,23 @@
+body {
+  color: #220000;
+  background-color: yellow; }
+
+.lista_kursantow li {
+  padding: 10px;
+  background-color: aqua;
+  color: white;
+  margin: 5px;
+  list-style-type: decimal-leading-zero;
+  border: 5px solid red;
+  border-radius: 50%;
+  text-align: center; }
+
+.technology_know li {
+  padding: 10px;
+  background-color: aqua;
+  color: white;
+  margin: 5px;
+  list-style-type: decimal-leading-zero;
+  border: 5px solid red;
+  border-radius: 50%;
+  text-align: center; }

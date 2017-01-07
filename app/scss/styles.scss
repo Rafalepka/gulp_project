@@ -1,0 +1,20 @@
+@import "zmienne";
+@import "mixin";
+    
+body {
+    color: $base-color;
+    background-color: $bg-color;
+}
+
+.lista_kursantow {
+    li {
+        @include element_list_style;
+    
+    }
+}
+
+.technology_know {
+    li{
+        @include element_list_style;
+    }
+}

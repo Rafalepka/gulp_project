@@ -1,0 +1,10 @@
+@mixin element_list_style {
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    margin: 5px;
+    list-style-type: decimal-leading-zero;
+    border: $border-color;
+    border-radius: 50%;
+    text-align: center;
+}
