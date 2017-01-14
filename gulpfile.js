@@ -28,3 +28,12 @@ gulp.task('watch', ['browserSync', 'sass'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
     // Other watchers
 });
+
+var uglifycss = require('uglifycss');
+ 
+var uglified = uglifycss.processFiles(
+    [ 'app/css/styles.css' ],
+    { maxLineLen: 500, expandVars: true }
+);
+ 
+console.log(uglified);
